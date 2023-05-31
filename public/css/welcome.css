@@ -1,0 +1,39 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-style: dotted;
+    justify-content: space-evenly;
+}
+
+.mezoLeiro{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-style: dotted;
+    justify-content: space-evenly;
+}
+
+.inputMezo{
+    display: flex;
+    align-self: center;
+}
+
+@media screen and (max-width: 400px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-style: dotted;
+        justify-content: space-evenly;
+    }
+
+    .inputMezo{
+        display: flex;
+        align-self: flex-start;
+    }
+
+    .mezoLeiro{
+        display: none;
+    }
+  }
